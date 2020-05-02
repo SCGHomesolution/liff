@@ -24,7 +24,7 @@
   <p id="groupId"><b>groupId:</b> </p>
   <p id="isLoggedIn"><b>isLoggedIn:</b> </p>
 
-  <button id="btnMsg" onclick="sendMsg()">Send Message</button>
+  <button id="btnMsg" onclick="sendMsg()">View Ref.Site</button>
   <button id="btnLogOut" onclick="logOut()">Log Out</button>
   <button id="btnClose" onclick="closed()">Close</button>
 
@@ -48,6 +48,7 @@
     }
 
     function closed() {
+      liff.closeWindow()
     }
 
     async function scanCode() {
